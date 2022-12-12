@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+     <img src="image/img.jpg" alt="image">
+      
+       <div class="form">
+        <form action="">
+            <h1>Registration</h1>
+            
+           <div class="item">
+            <p>Full Name</p>
+            <input type="text" id="name" name="name" placeholder="Enter You Name" required>
+           </div>
+            
+
+            <p>Position You are applying for</p>
+            <select name="position" id="position" required>
+                <option value="">--Position--</option>
+                <option value="HR">HR</option>
+                <option value="Full Stack Developer">Full Stack Developer</option>
+                <option value="Front-End Developer">Front-End Developer</option>
+            </select>
+
+            <div class="item">
+                <p>Email</p>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+
+            <div class="item">
+                <p>Phone Number</p>
+                <input type="text" name="phone" id="phone" placeholder="Enter Your Mobile No." required>
+            </div>
+
+            <div class="item">
+                <p>Country</p>
+                <input type="text" name="Country" id="country" placeholder="Please Enter country">
+            </div>
+
+          <div class="item">
+            <p>City</p>
+            <input type="text" name="city" id="city" placeholder="Please Enter city">
+          </div>
+
+          <div class="item">
+            <p>Password</p>
+            <input type="password" name="pass" id="pass" placeholder="Please Enter Password" required>
+          </div>
+
+          <div class="item">
+            <p>Confirm Password</p>
+            <input type="password" name="cpass" id="cpass" placeholder="Please Enter Re-Password" required>
+          </div>
+
+        <div class="item">
+            <span>Gender</span>
+            <input type="radio" name="gander" id="gander">Male
+            <input type="radio" name="gander" id="gander">Female
+            <input type="radio" name="gander" id="gander">Other
+        </div>
+        <div class="button">
+            <input type="submit" value="Next Step">
+        </div>
+        <div class="item">
+                <span>Already have an account?<a href="">Sign-in</a></span>
+            </div>
+        </form>
+       </div>
+    </div>
+</body>
+</html>
